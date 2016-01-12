@@ -1,0 +1,22 @@
+{
+  "name": "rollup-vue-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "rollup -c && http-server -a localhost -p 5555 -s -c-1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015-rollup": "^1.1.1",
+    "http-server": "^0.8.5",
+    "rollup": "^0.24.1",
+    "rollup-plugin-babel": "^2.3.8",
+    "rollup-plugin-commonjs": "^2.1.0",
+    "rollup-plugin-json": "^2.0.0",
+    "rollup-plugin-npm": "^1.2.1",
+    "vue": "^1.0.14"
+  }
+}
